@@ -115,7 +115,18 @@ hr {
   outline: none;
   border-radius: 5px;
 }
-
+.form-btn-cancel {
+  background-color: #c4c4c4;
+}
+.form-btn-cancel:active {
+  background-color: #a4a4a4;
+}
+.form-btn-next {
+  background-color: #362f74;
+}
+.form-btn-next:active {
+  background-color: #160f54;
+}
 /* Your styles */
 .progress-bar {
   /* Change width */
