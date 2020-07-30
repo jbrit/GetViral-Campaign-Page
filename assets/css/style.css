@@ -79,7 +79,7 @@ body{
     background-color: var(--gray-tint);
 }
 hr{
-    border: 2px solid rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 /* Main styles */
@@ -108,35 +108,6 @@ hr{
 }
 #upload-campaign .progress-bar{
     background-color: var(--green);
-}
-
-/* you can do away with these styles */
-.wrapper{
-    width: 100%;
-    border: 1px solid var(--light);
-}
-@media screen and (min-width: 576px){
-    .wrapper{
-      width: 18.75rem;
-    }
-}
-.wrapper .iconify{
-    width: 5rem;
-    height: 4.375rem;
-}
-.wrapper p:last-of-type{
-    width: 50%;
-}
-#upload-files .iconify{
-    width: 3.125rem;
-    height: 4.063rem;
-}
-.dropzone{
-    background-color: transparent;
-    border: none;
-}
-.dropzone .dz-message .dz-button {
-  display: none;
 }
 #page-navigation button{
     font-weight: bold;
