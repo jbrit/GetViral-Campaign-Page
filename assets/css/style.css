@@ -83,16 +83,16 @@ hr {
 }
 
 /* Main styles */
-#upload-campaign {
+.campaign-main {
   padding: 2rem 1rem 0;
 }
 @media screen and (min-width: 576px) {
-  #upload-campaign {
+  .campaign-main {
     padding: 2rem 2rem 0;
   }
 }
 @media screen and (min-width: 768px) {
-  #upload-campaign {
+  .campaign-main {
     padding: 2rem 3.75rem 0;
   }
 }
